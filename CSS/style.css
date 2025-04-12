@@ -216,7 +216,8 @@ nav ul li a:hover {
     height:62px;
     border-radius:50%;
     background-color: var(--light-back);
-    position:relative
+    position:relative;
+      
 }
 
 .about .contact .inner-circle {
@@ -228,7 +229,16 @@ nav ul li a:hover {
     left:50%;
     top:50%;
     transform: translate(-50%,-50%);
+    transition:width 0.3s ease-in-out, height 0.3s ease-in-out; 
 }
+
+.contact .circles:hover .inner-circle {
+        width:62px;
+        height:62px;
+    }
+
+
+
 
 .about .contact section h4 {
     font-weight: 700;
