@@ -374,6 +374,7 @@ height:62px;
     background-color: transparent;
     height:28px;
     font-family: "DM Sans", sans-serif;
+    color:var(--font-color)
 }
 
 .get-in-touch-container form textarea {
