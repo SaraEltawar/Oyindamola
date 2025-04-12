@@ -64,12 +64,14 @@ nav ul li a {
     color:var(--font-color);
     font-size: 18px;
     font-weight:400;
+    padding:5px;
 }
 
 /* hover effect on nav bar start */
 nav ul li a:hover {
     background-color:var(--light-green);
     transition: all 0.3s ease-in-out;
+    border-radius:5px;
 }
 /* hover effect on nav bar end*/
 /* header end */
