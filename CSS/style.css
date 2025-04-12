@@ -384,6 +384,7 @@ height:62px;
     background-color: transparent;
     grid-area: 3 / 1 / span 1 /span 2;
     padding:12px;
+    color:var(--font-color)
 }
 
 .get-in-touch form button {
