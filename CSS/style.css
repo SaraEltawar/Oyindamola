@@ -44,8 +44,12 @@ nav .header-heading {
     width:212px;
     height:47px;
     color:var(--font-color);
+    transition:all 0.3s ease-in-out;
 }
 
+nav .header-heading:hover {
+    transform: scale(1.2);
+}
 nav ul {
     list-style:none;   
     display: flex;
@@ -149,6 +153,11 @@ nav ul li a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.main-container .main-image:hover {
+    background-color: #88CE75;
 }
 
 .main-container .main-image .inner-main-image {
